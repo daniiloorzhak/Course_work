@@ -14,3 +14,4 @@ void shuffle(int* chisla, int N )
         chisla[j] = chisla[i];
         chisla[i] = tmp;
     }
+}
