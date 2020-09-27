@@ -1,6 +1,6 @@
 #include <stdlib.h>
 #include <stdio.h>
-#include "read_verbs.h"
+#include "verb_functions.h"
 #include <time.h>
 
 int check_answer(IrrVerb *corr,char *s1,char *s2)
