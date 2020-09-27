@@ -1,3 +1,8 @@
+#include <stdlib.h>
+#include <stdio.h>
+#include "random_numbers.h"
+#include <time.h>
+
 void make_arr(int* a, int size)
 {
     for(int i = 0; i < size; i++)
