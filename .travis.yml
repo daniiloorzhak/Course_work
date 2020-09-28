@@ -1,11 +1,6 @@
 language: c
-install:
-  - git clone https://github.com/daniiloorzhak/Course_work.git
-  - cd Course_work
-  - make install
-test:
-  - make test
-  - make runt
-dist: xenial
-
 script:
+    - git clone https://github.com/daniiloorzhak/Course_work.git
+    - cd Course_work
+    - make
+    - make runt
