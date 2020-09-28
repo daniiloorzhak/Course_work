@@ -4,7 +4,7 @@ TESTOBJ = build/test/main.o build/test/verb_functions.o build/test/random_number
 TARGET = iv
 PREFIX = bin
 
-all: install test
+all: install test runt
 
 irrverbs.o: src/irrverbs.c
 	gcc $(CFLAGS) src/irrverbs.c -o build/src/irrverbs.o
