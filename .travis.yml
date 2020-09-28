@@ -6,3 +6,7 @@ install:
 test:
   - make test
   - make runt
+dist: xenial
+
+script:
+  - git ls-files src/ | xargs clang-format -i && git diff --exit-code
