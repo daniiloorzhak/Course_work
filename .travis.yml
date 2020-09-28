@@ -1,1 +1,6 @@
 language: c
+install:
+  - git clone https://github.com/daniiloorzhak/Course_work.git
+  - cd Course_work
+  - make install
+  - make run
