@@ -8,7 +8,6 @@
 //#define CTEST_COLOR_OK
 
 #include "ctest.h"
-#include "iv_test.c"
 
 int main(int argc, const char *argv[])
 {
