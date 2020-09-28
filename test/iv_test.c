@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 #include "ctest.h"
-#include "irr_verbs.h"
+#include "irrverbs.h"
 #include "random_numbers.h"
 #include "verb_functions.h"
 
